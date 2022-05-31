@@ -42,6 +42,6 @@ for bookLink in allBooks:
     csvWriter.writerow([title, category_a, stock, stars, price, tax, upc, description])
 
 
-time.sleep(4)
+time.sleep(2)
 
 driver.close()
